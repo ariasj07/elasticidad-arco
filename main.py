@@ -51,14 +51,14 @@ Si la respuesta es no, significa que el producto es **inelástico**, lo que sign
 Para obtener el valor, que nos va a servir para determinar si el producto es elástico, o inelástico, se usa esta fórmula llamada **elásticidad arco** o también **punto medio**:
 """)
 st.latex(r"""
-\Large E =\frac{ \frac{\Delta Q} {Q\, promedio}} {\frac{\Delta P}{P\, promedio}}
+\large E =\frac{ \frac{\Delta Q} {Q\, promedio}} {\frac{\Delta P}{P\, promedio}}
 """)
 st.markdown("""
 Siendo "Q" la cantidad demandada y "P" el precio, si la aplicamos:
 """)
 
 st.latex(r"""
-\Large E =\frac{\frac{8 - 10}{(8 + 10) / 2}}{\frac{110 - 100}{(110 + 100) / 2}} = \frac{-0.222}{0.095} = -2.34
+\Huge E =\frac{\frac{8 - 10}{(8 + 10) / 2}}{\frac{110 - 100}{(110 + 100) / 2}} = \frac{-0.222}{0.095} = -2.34
 """)
 
 data = {
