@@ -58,7 +58,7 @@ Siendo "Q" la cantidad demandada y "P" el precio, si la aplicamos:
 """)
 
 st.latex(r"""
-\Huge E =\frac{\frac{8 - 10}{(8 + 10) / 2}}{\frac{110 - 100}{(110 + 100) / 2}} = \frac{-0.222}{0.095} = -2.34
+\large E =\frac{\frac{8 - 10}{(8 + 10) / 2}}{\frac{110 - 100}{(110 + 100) / 2}} = \frac{-0.222}{0.095} = -2.34
 """)
 
 data = {
