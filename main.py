@@ -17,7 +17,7 @@ La *elásticidad arco* es una formúla matemática, usada en economía para repr
 Es muy útil para medir como reaccionará la demanda de un bien **frente a un cambio en el precio**
 
 Para dar un ejemplo más facil:
-- ¿Como podemos saber que tanto puede un consumidor dejar de demandar $"x"$ cantidad del bien $"a"$ si su precio $"y"$ ahora es $"y + 10"$?
+- ¿Como podemos saber qué tanto puede un consumidor dejar de demandar $"x"$ cantidad del bien $"a"$ si su precio $"y"$ ahora es $"y + 10"$?
 
 Primero se toman datos, usé estos de ejemplo:
 """)
