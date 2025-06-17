@@ -25,7 +25,7 @@ st.dataframe(pd.DataFrame({
     "Precio": [100, 110],
     "Cantidad demandada": [10, 8],
 }), hide_index=True)
-st.line_chart(datos, x="Cantidad", y="Precio", x_label="Cantidad demandada")
+st.line_chart(datos, x="Cantidad demandada", y="Precio")
 st.write("""
 Como podemos apreciar, si el producto cuesta 100, el consumidor compra 10 unidades
 
