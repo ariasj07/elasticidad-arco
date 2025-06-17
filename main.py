@@ -6,6 +6,18 @@ datos = pd.DataFrame({
     "Precio": list((precio)),
     "Cantidad demandada": list((qd))
 })
+st.markdown("""
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+h1, h2, h3, h4, h5, h6, p, th, td, table {
+    font-family: Inter !important;
+}
+
+</style>
+""", unsafe_allow_html=True)
+
+
 st.markdown(r"""
 ## Elasticidad arco
 *Por: Josué Arias - 17/06/2025 5:03*
