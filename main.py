@@ -11,7 +11,7 @@ datos = pd.DataFrame({
 st.markdown(r"""
 ## Elasticidad arco
 *Por: Josué Arias - 17/06/2025 5:03*
-- ### ¿Qué es la elásticidad?
+- ### ¿Qué es la elásticidad arco?
 La *elásticidad arco* es una formúla matemática, usada en economía para representar la forma en la que **la demanda reacciona frente a un cambio en el precio**
 - ### ¿De qué sirve?
 Es muy útil para medir como reaccionará la demanda de un bien **frente a un cambio en el precio**
