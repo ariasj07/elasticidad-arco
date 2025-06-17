@@ -6,16 +6,6 @@ datos = pd.DataFrame({
     "Precio": list((precio)),
     "Cantidad demandada": list((qd))
 })
-st.markdown("""
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
-h1, h2, h3, h4, h5, h6, p, th, td, table {
-    font-family: Inter !important;
-}
-
-</style>
-""", unsafe_allow_html=True)
 
 
 st.markdown(r"""
@@ -35,6 +25,7 @@ st.dataframe(pd.DataFrame({
     "Precio": [100, 110],
     "Cantidad demandada": [10, 8],
 }), hide_index=True)
+st.line_chart(datos, x="Cantidad", y="Precio", x_label="Cantidad demandada")
 st.write("""
 Como podemos apreciar, si el producto cuesta 100, el consumidor compra 10 unidades
 
